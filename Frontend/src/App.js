@@ -5,7 +5,6 @@ import AllReports from "./components/AllReports";
 import DeleteReport from "./components/DeleteReport";
 import ViewReport from "./components/ViewReport";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
 import UpdateReport from "./components/UpdateReport";
 
 function App() {
@@ -21,7 +20,6 @@ function App() {
           <Route path="/view-report/" element={<ViewReport />} />
           <Route path="/update-report/" element={<UpdateReport />} />
         </Routes>
-        <Footer />
       </div>
     </BrowserRouter>
   );
